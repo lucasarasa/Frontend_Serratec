@@ -1,0 +1,10 @@
+.inline-block{
+    display: inline-block;
+    background-color: red;
+}
+
+.elemento {
+    height: 4rem;
+    width 4rem;
+    
+}
