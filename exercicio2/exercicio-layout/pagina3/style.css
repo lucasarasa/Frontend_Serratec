@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+.topo {
+    background-color: green;
+    height: 8rem;
+}
+
+.container {
+    display: flex;
+    height: 70vh;
+}
+
+.esquerda {
+    background-color: blue;
+    width: 20%;
+}
+
+.conteudo {
+    display: flex;
+    background-color: aquamarine;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.direita {
+    background-color: blue;
+    width: 20%;
+}
+
+.footer {
+    background-color: green;
+    height: 10rem;
+}

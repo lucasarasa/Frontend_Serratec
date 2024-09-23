@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    display: inline;
+}
+
+.header {
+    border: 1px solid red;
+    background-color: red;
+    width: 100%;
+    height: 8rem;
+}
+
+.main {
+    background-color: blue;
+    width: 100%;
+    height: 5rem;
+}
+
+.conteudo {
+    display: flex;
+    background-color: aquamarine;
+    height: 41rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: green;
+    height: 5rem;
+}
