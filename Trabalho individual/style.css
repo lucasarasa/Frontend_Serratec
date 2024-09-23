@@ -121,7 +121,13 @@ body {
     flex-direction: column;
     padding-bottom: 3rem;
     box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 20px;
+    transition: background 0.7s;
     /* border: 5px solid #009ac0; */
+}
+
+.img1:hover , .img2:hover , .img3:hover , .img4:hover , .img5:hover , .img6:hover {
+  transform: scale(1.1);
+  background: rgb(0, 0, 0);
 }
 
 .img1 img, .img2 img, .img3 img, .img4 img, .img5 img, .img6 img {
@@ -283,10 +289,6 @@ body {
 #submit:hover {
     /* background: linear-gradient(to right,rgb(0, 0, 0), rgb(19, 154, 195)); */
     background: #00ccff;
-}
-
-.footer {
-    /* background: linear-gradient(to right, #000000, rgb(0, 191, 255)); */
 }
 
 .bottom-pag {
