@@ -472,3 +472,79 @@ body {
     margin-right: 10px;
   }
 }
+
+@media (min-width: 601px) and (max-width: 1400px) {
+  .top-pag {
+    height: 55px;
+    width: 100%;
+}
+
+  .top-pag-left h1 {
+    font-size: 20px;
+  }
+
+  .top-pag-left img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .top-pag-right {
+    font-size: 16px;
+  }
+
+  .main-1 {
+    font-size: 14px;
+  }
+
+  .main-1 p {
+    font-size: 16px;
+  }
+
+  .sites h2 {
+    font-size: 25px;
+  }
+
+  .imgs {
+    gap: 4rem;
+  }
+
+  .imgs p {
+    font-size: 18px;
+  }
+
+  .img1 img,
+  .img2 img,
+  .img3 img,
+  .img4 img,
+  .img5 img,
+  .img6 img {
+    width: 260px;
+    height: 150px;
+  }
+
+  .informacoes h2 {
+    font-size: 25px;
+  }
+
+  .informacoes-img-txt p {
+    font-size: 18px;
+  }
+
+  .new h2 {
+    font-size: 25px;
+  }
+
+  .new p {
+    font-size: 25px;
+  }
+
+  .bottom-pag-left p {
+    font-size: 13px;
+  }
+
+  .icons {
+    font-size: 12px;
+    margin: 0;
+    margin-right: 2rem;
+  }
+}
