@@ -447,7 +447,7 @@ body {
     margin-left: 0;
   }
 
-  .checkbox-label{
+  .checkbox-label {
     font-size: 13px;
   }
 
@@ -459,14 +459,16 @@ body {
 
   .bottom-pag-left {
     margin: 0;
+    margin-left: 10px;
   }
 
-  .bottom-pag-left p{
+  .bottom-pag-left p {
     font-size: 8px;
   }
 
   .icons {
-  font-size: 8px;
-  margin: 0;
+    font-size: 8px;
+    margin: 0;
+    margin-right: 10px;
   }
 }
